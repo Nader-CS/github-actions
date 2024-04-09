@@ -14,4 +14,4 @@ jobs:
     steps:
       - env:
           OUTPUT1: ${{needs.first-job.outputs.output1}}
-        run: echo '$OUTPUT1'
+        run: echo "$OUTPUT1"
